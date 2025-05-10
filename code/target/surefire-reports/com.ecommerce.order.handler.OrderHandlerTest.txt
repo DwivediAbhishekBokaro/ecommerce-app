@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.ecommerce.order.handler.OrderHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.484 s <<< FAILURE! -- in com.ecommerce.order.handler.OrderHandlerTest
+com.ecommerce.order.handler.OrderHandlerTest.testGetOrderById -- Time elapsed: 0.021 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent.getBody()" because "this.resp" is null
+	at com.ecommerce.order.handler.OrderHandlerTest.testGetOrderById(OrderHandlerTest.java:143)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
